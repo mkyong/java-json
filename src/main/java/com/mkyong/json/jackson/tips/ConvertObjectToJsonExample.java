@@ -24,6 +24,5 @@ public class ConvertObjectToJsonExample {
             throw new RuntimeException(e);
         }
 
-
     }
 }

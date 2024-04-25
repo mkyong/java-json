@@ -1,0 +1,13 @@
+{
+  "model": {
+    "activities": [
+      {
+        "start": "2014-05-05T18:10:50.000",
+        "end": "2014-05-05T18:17:30.000",
+        "content": "PrepareHotTea",
+        "location": "Malaysia",
+        "observations": []
+      }
+    ]
+  }
+}
