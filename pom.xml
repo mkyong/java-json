@@ -16,6 +16,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>17</java.version>
         <jackson.version>2.17.0</jackson.version>
+        <lombok.version>1.18.32</lombok.version>
     </properties>
 
     <dependencies>
@@ -25,11 +26,27 @@
             <version>${jackson.version}</version>
         </dependency>
 
-        <!-- support for "Java 8 Dates" -->
+        <!-- support for "Java 8 Date Time APIs" -->
         <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>
             <artifactId>jackson-datatype-jsr310</artifactId>
             <version>${jackson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+
+        <!--
+            Moshi is a modern JSON library for Android, Java and Kotlin.
+            https://github.com/square/moshi
+        -->
+        <dependency>
+            <groupId>com.squareup.moshi</groupId>
+            <artifactId>moshi</artifactId>
+            <version>1.15.1</version>
         </dependency>
 
 

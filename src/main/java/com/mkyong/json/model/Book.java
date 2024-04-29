@@ -10,6 +10,9 @@ public class Book {
     private BigDecimal price;
     private LocalDate publishDate;
 
+    public Book() {
+    }
+
     public Book(Long id, String title, BigDecimal price, LocalDate publishDate) {
         this.id = id;
         this.title = title;
