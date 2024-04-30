@@ -4,12 +4,15 @@ import com.mkyong.json.model.Person;
 import com.squareup.moshi.JsonAdapter;
 import com.squareup.moshi.Moshi;
 
-public class PrettyPrintExample {
+public class PrettyPrintJsonExample {
 
     public static void main(String[] args) {
 
         Moshi moshi = new Moshi.Builder().build();
-        JsonAdapter<Person> jsonAdapter = moshi.adapter(Person.class).indent("  ");
+
+        // two spaces
+        JsonAdapter<Person> jsonAdapter =
+                moshi.adapter(Person.class).indent("  ");
 
         Person person = new Person("mkyong", 42);
 

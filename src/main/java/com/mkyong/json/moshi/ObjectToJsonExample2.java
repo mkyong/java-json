@@ -22,7 +22,7 @@ public class ObjectToJsonExample2 {
         Staff staff = createStaff();
 
         try {
-            
+
             String json = jsonAdapter.toJson(staff);
             System.out.println(json);
 
