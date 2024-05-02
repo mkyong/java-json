@@ -1,7 +1,10 @@
 package com.mkyong.json.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Person {
 
+    //@JsonProperty("nick_name")
     private String name;
     private int age;
 
