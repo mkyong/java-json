@@ -9,13 +9,12 @@ import java.util.Map;
 
 // @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Staff {
-
     private String name;
     private int age;
     private String[] position;              //  Array
-    @JsonInclude(JsonInclude.Include.NON_NULL)
+    //@JsonInclude(JsonInclude.Include.NON_NULL)
     private List<String> skills;            //  List
-    @JsonInclude(JsonInclude.Include.NON_NULL)
+    //@JsonInclude(JsonInclude.Include.NON_NULL)
     private Map<String, BigDecimal> salary; //  Map
     private boolean active;                 // boolean
 
