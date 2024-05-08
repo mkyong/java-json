@@ -1,10 +1,11 @@
 package com.mkyong.json.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+import com.google.gson.annotations.SerializedName;
 
 public class Person {
 
     //@JsonProperty("nick_name")
+    @SerializedName("nick_name")
     private String name;
     private int age;
 
